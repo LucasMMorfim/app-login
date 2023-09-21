@@ -1,0 +1,12 @@
+[x] Deve ser possivel se cadastrar
+[x] Deve ser possivel se logar
+[x] Deve ser possivel obter o perfil de um usuario logado
+
+
+
+
+[x] Não deve ser possivel se cadastrar com email duplicado
+
+
+[x] Senha deve estar criptografada
+[x] Banco de dados POSTGRESQL
