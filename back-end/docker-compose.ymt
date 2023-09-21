@@ -1,0 +1,11 @@
+version : '3'
+
+services:
+  aplicacao-login-pg
+    image: bitnami/postgresql
+    ports:
+      - 5432:5432
+    environment:
+      - POSGRESQL_USERNAME=docker
+      - POSGRESQL_PASSWORD=docker
+      - POSGRESQL_DATABASE=aplicacaologin
